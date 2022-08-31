@@ -1,5 +1,5 @@
-name: mi_card
-description: A new Flutter application.
+name: flutter_businesscard
+description: Business Card application.
 version: 1.0.0+1
 
 environment:

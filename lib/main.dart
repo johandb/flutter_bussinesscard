@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(BusinessCardApp());
 }
 
-class MyApp extends StatelessWidget {
+class BusinessCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                 leading: Icon(Icons.phone, color: Colors.teal),
                 title: Text(
                   '+31(0) 6 249 00 477',
-                  style: TextStyle(fontFamily: 'Source Sans Pro', fontSize: 20.00),
+                  style: TextStyle(fontFamily: 'Source Sans Pro', fontSize: 18.00),
                 ),
               ),
             ),
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                 leading: Icon(Icons.email, color: Colors.teal),
                 title: Text(
                   'johanj.denboer@gmail.com',
-                  style: TextStyle(fontFamily: 'Source Sans Pro', fontSize: 20.00),
+                  style: TextStyle(fontFamily: 'Source Sans Pro', fontSize: 18.00),
                 ),
               ),
             ),
